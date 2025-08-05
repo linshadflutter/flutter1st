@@ -74,10 +74,13 @@ class _ProfileState extends State<Profile> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Row(
-                  children: [
-                Icon(Icons.arrow_left_outlined),
-                Text("Left",style: TextStyle(fontSize: 14,color: Colors.white,fontWeight: FontWeight.w100),),],
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    children: [
+                  Icon(Icons.arrow_left_outlined),
+                  Text("Left",style: TextStyle(fontSize: 14,color: Colors.white,fontWeight: FontWeight.w100),),],
+                  ),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
