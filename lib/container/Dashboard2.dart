@@ -65,7 +65,7 @@ class _Dashboard2State extends State<Dashboard2> {
                      ),
                   ],
                 ),
-                Image.network("https://img.icons8.com/?size=96&id=108789&format=png",height: 40,width: 36,)
+                //Image.network("https://img.icons8.com/?size=96&id=108789&format=png",height: 40,width: 36,)
               ],
             ),
             ),
@@ -81,8 +81,11 @@ class _Dashboard2State extends State<Dashboard2> {
               
             ),
             child: Row(
-              
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
+                Row(
+                  children: [
+                
                 Padding(
                   padding: const EdgeInsets.all(15.0),
                   child: CircleAvatar(
@@ -91,7 +94,7 @@ class _Dashboard2State extends State<Dashboard2> {
                   ),
                 ),
                 Column(
-                
+                crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     SizedBox(height: 16,),
                     Text("Criag Arnold",style: TextStyle(color: Colors.black,fontSize: 20,fontWeight: FontWeight.bold),),
@@ -101,10 +104,13 @@ class _Dashboard2State extends State<Dashboard2> {
                        Text("\$40",style: TextStyle(color: Colors.green,fontSize: 15,fontWeight: FontWeight.bold),),
                        Text("/hour",style: TextStyle(color: Colors.black,fontSize: 13,fontWeight: FontWeight.normal),)
                       ],
-                     ),
+                   ),],   ),
                   ],
                 ),
-                Image.network("https://img.icons8.com/?size=96&id=108789&format=png",height: 40,width: 36,)
+                Padding(
+                  padding: const EdgeInsets.only(left: 40,right: 9),
+                  child: Image.network("https://img.icons8.com/?size=96&id=108789&format=png",height: 40,width: 36,),
+                )
               ],
             ),
             ),
@@ -124,6 +130,9 @@ class _Dashboard2State extends State<Dashboard2> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
+                Row(children: [
+
+                
                 Padding(
                   padding: const EdgeInsets.all(15.0),
                   child: CircleAvatar(
@@ -142,7 +151,7 @@ class _Dashboard2State extends State<Dashboard2> {
                        Text("\$55",style: TextStyle(color: Colors.green,fontSize: 15,fontWeight: FontWeight.bold),),
                        Text("/hour",style: TextStyle(color: Colors.black,fontSize: 13,fontWeight: FontWeight.normal),)
                       ],
-                     ),
+                  ),],  ),
                   ],
                 ),
                
@@ -166,7 +175,7 @@ class _Dashboard2State extends State<Dashboard2> {
               
             ),
             child: Row(
-              
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -216,7 +225,13 @@ class _Dashboard2State extends State<Dashboard2> {
               
             ),
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
+                Row(
+                  children: [
+
+                
+                
                 Padding(
                   padding: const EdgeInsets.all(15.0),
                   child: CircleAvatar(
@@ -225,7 +240,7 @@ class _Dashboard2State extends State<Dashboard2> {
                   ),
                 ),
                 Column(
-                
+                crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     SizedBox(height: 16,),
                     Text("Curtis Michael",style: TextStyle(color: Colors.black,fontSize: 20,fontWeight: FontWeight.bold),),
@@ -235,10 +250,14 @@ class _Dashboard2State extends State<Dashboard2> {
                        Text("\$45",style: TextStyle(color: Colors.green,fontSize: 15,fontWeight: FontWeight.bold),),
                        Text("/hour",style: TextStyle(color: Colors.black,fontSize: 13,fontWeight: FontWeight.normal),)
                       ],
+                     ),],
                      ),
                   ],
                 ),
-                Image.network("https://img.icons8.com/?size=96&id=108789&format=png",height: 40,width: 36,)
+                Padding(
+                  padding: const EdgeInsets.only(left: 80,right: 9),
+                  child: Image.network("https://img.icons8.com/?size=96&id=108789&format=png",height: 40,width: 36,),
+                )
               ],
             ),
             ),
