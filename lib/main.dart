@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/container/Appbar.dart';
+import 'package:my_app/container/Dashboard.dart';
+import 'package:my_app/container/Dashboard2.dart';
 import 'package:my_app/container/Index.dart';
 import 'package:my_app/container/Products.dart';
 import 'package:my_app/container/Row.dart';
@@ -27,7 +29,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: Bearlogin()
+      home: Dashboard2()
     );
   }
 }

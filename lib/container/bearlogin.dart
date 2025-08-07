@@ -70,7 +70,7 @@ class _BearloginState extends State<Bearlogin> {
                 controller:emailController ,
                 decoration: InputDecoration(
                   prefix: Padding(
-                    padding: const EdgeInsets.all(15.0),
+                    padding: const EdgeInsets.all(8.0),
                     child: Icon(Icons.access_alarm),
                   ),
           labelText: 'Email',border: InputBorder.none,),
