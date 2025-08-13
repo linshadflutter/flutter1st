@@ -6,7 +6,9 @@ import 'package:my_app/container/Index.dart';
 import 'package:my_app/container/Products.dart';
 import 'package:my_app/container/Row.dart';
 import 'package:my_app/container/Task1.dart';
+import 'package:my_app/container/Whatsapp1.dart';
 import 'package:my_app/container/bearlogin.dart';
+import 'package:my_app/container/bearsplash.dart';
 import 'package:my_app/container/beartask.dart';
 import 'package:my_app/container/containertask.dart';
 import 'package:my_app/container/home.dart';
@@ -29,7 +31,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: Dashboard2()
+      home:Bears3()
     );
   }
 }

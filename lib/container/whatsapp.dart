@@ -12,7 +12,7 @@ class _WhatsappState extends State<Whatsapp> {
   Widget build(BuildContext context) {
     return Scaffold(
              backgroundColor: Colors.white,
-      appBar:AppBar(backgroundColor: Colors.black,
+      appBar:AppBar(backgroundColor: Colors.green,
       title: Text("WhatsApp",style:TextStyle(color:Colors.white,fontSize: 26,fontWeight: FontWeight.w900),),
       
       actions: [Icon(Icons.scanner,color: Colors.white,),Padding(

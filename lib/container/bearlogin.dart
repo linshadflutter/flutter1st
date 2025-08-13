@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_app/container/beartask.dart';
 
 class Bearlogin extends StatefulWidget {
   const Bearlogin({super.key});
@@ -11,6 +12,15 @@ class _BearloginState extends State<Bearlogin> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+       floatingActionButton:FloatingActionButton(onPressed: (){
+        Navigator.push(context, 
+        MaterialPageRoute(builder: (context) => BearTask1())
+        );
+
+      },
+      backgroundColor: Colors.brown,
+      child: Icon(Icons.arrow_right,color: Colors.white,),
+      ),
       backgroundColor: Color(0xFFF9F3EE),
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 50.0,horizontal: 35),
@@ -103,6 +113,7 @@ child: Center(
                 Text("Sign Up" ,style: TextStyle(fontWeight:FontWeight.bold,color: Colors.black,fontSize: 18 ),),
               ],
             ),
+            
           ]
             ),
     

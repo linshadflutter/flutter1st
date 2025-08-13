@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_app/container/Dashboard2.dart';
 import 'package:my_app/container/Icon2.dart';
 import 'package:my_app/container/profile.dart';
 
@@ -24,6 +25,14 @@ class _DashboardState extends State<Dashboard> {
 
       )
       ],
+      ),
+
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.blueAccent,
+        onPressed: () {
+        Navigator.push(context, MaterialPageRoute(builder: (context) => Dashboard2(),));
+      },
+      child: Icon(Icons.arrow_forward),
       ),
       body: Column(
       

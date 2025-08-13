@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_app/container/Dashboard.dart';
 
 class BearTask1 extends StatefulWidget {
   const BearTask1({super.key});
@@ -11,7 +12,18 @@ class _BearTask1State extends State<BearTask1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+    
+  floatingActionButton:FloatingActionButton(onPressed: (){
+        Navigator.push(context, 
+        MaterialPageRoute(builder: (context) => Dashboard  ())
+        );
+
+      },
+      backgroundColor: Colors.brown,
+      child: Icon(Icons.arrow_right,color: Colors.white,),
+      ),
       backgroundColor: Color(0xFFF9F3EE),
+      
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 50.0,horizontal: 35),
         child: Column(
@@ -90,11 +102,13 @@ SizedBox(height: 230,),
                   Text("Terms & Privacy Policy" ,style: TextStyle(fontWeight:FontWeight.bold,color: Colors.black,fontSize: 18 ),),
               ],
             )
+            
           ],
   
         
         ),
       ),
+      
     );
   }
 }
