@@ -1,12 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/container/Appbar.dart';
+import 'package:my_app/container/Course.dart';
+import 'package:my_app/container/Coursepage.dart';
+import 'package:my_app/container/Coursesplash.dart';
 import 'package:my_app/container/Dashboard.dart';
 import 'package:my_app/container/Dashboard2.dart';
 import 'package:my_app/container/Index.dart';
+import 'package:my_app/container/Meesho2.dart';
 import 'package:my_app/container/Products.dart';
 import 'package:my_app/container/Row.dart';
 import 'package:my_app/container/Task1.dart';
 import 'package:my_app/container/Whatsapp1.dart';
+import 'package:my_app/container/Wprofile.dart';
 import 'package:my_app/container/bearlogin.dart';
 import 'package:my_app/container/bearsplash.dart';
 import 'package:my_app/container/beartask.dart';
@@ -14,9 +19,16 @@ import 'package:my_app/container/containertask.dart';
 import 'package:my_app/container/home.dart';
 import 'package:my_app/container/homescreen.dart';
 import 'package:my_app/container/icon.dart';
+import 'package:my_app/container/listtask.dart';
+import 'package:my_app/container/listview.dart';
+import 'package:my_app/container/meesho.dart';
 import 'package:my_app/container/profile.dart';
 import 'package:my_app/container/task2.dart';
+import 'package:my_app/container/task5.dart';
+import 'package:my_app/container/task6.dart';
 import 'package:my_app/container/whatsapp.dart';
+import 'package:my_app/machinetest/pizza%20home.dart';
+import 'package:my_app/machinetest/pizzasplash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +43,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home:Bears3()
+      home:PizzaSplash()
     );
   }
 }
